@@ -11,4 +11,18 @@ This plugin uses Cafebazaar <a href="https://github.com/cafebazaar/Poolakey">Poo
 
 <p>Enable plugin on export dialog.</p>
 
+<p>In <strong>[your_project_path]/android/build/config.gradle </strong>file change kotlin version to <strong>kotlinVersion : &#39;1.4.0&#39; .</strong></p>
+
+<p><strong>Note:</strong> You have to activate your&nbsp;VPN before build after this settings by now!</p>
+
+<p><strong>Note: </strong>This plugin just works on your build on device.</p>
+
+<p><span style="font-size:18px"><strong>Send a Purchase request:</strong></span></p>
+
+<p><span style="font-size:14px">[Will Documented&nbsp;Soon]</span></p>
+
+<p><span style="font-size:18px"><strong>Handle Purchase result:</strong></span></p>
+
+<p><span style="font-size:14px">[Will documented&nbsp;Soon]</span></p>
+
 <p>&nbsp;</p>
