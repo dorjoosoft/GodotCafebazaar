@@ -10,7 +10,7 @@ This plugin uses Cafebazaar <a href="https://github.com/cafebazaar/Poolakey">Poo
 <p>Download latest release from <a href="https://github.com/dorjoosoft/GodotCafebazaar/releases">release page</a>&nbsp;and extract content&nbsp;to<strong> [your_project_path]/android/plugins </strong>folder.</p>
 
 <p>Enable plugin on export dialog.</p>
-![enable plugin ](https://github.com/dorjoosoft/GodotCafebazaar/blob/main/docs/tempsnip.png)
+<img src="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/docs/tempsnip.png" alt="Enable plugin"/>
 <p>In <strong>[your_project_path]/android/build/config.gradle </strong>file change kotlin version to <strong>kotlinVersion : &#39;1.4.0&#39; .</strong></p>
 
 <p><strong>Note:</strong> You have to activate your&nbsp;VPN before build after this settings by now!</p>
