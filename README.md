@@ -16,8 +16,6 @@ This plugin uses Cafebazaar <a href="https://github.com/cafebazaar/Poolakey">Poo
 <img src="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/docs/key.png" alt="Enable plugin"/>
 
 <p>In <strong>[your_project_path]/android/build/config.gradle </strong>file change kotlin version to <strong>kotlinVersion : &#39;1.4.0&#39; .</strong></p>
-l
-<>
 
 <p><strong>Note:</strong> You have to activate your&nbsp;VPN before build after this settings by now!</p>
 
