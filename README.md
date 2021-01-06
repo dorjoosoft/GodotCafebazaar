@@ -21,6 +21,10 @@ This plugin uses Cafebazaar <a href="https://github.com/cafebazaar/Poolakey">Poo
 
 <p><strong>Note: </strong>This plugin just works on your build on device.</p>
 
+<p><strong><span style="font-size:18px">Connect to plugin in Godot:</span></strong><br />
+Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/common/cafebazaar.gd">cafebazaar.gd</a>&nbsp;&nbsp;file and add it to your games common folder and add it to your Autoload.</p>
+<img src="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/docs/autoload.png" alt="Enable plugin"/>
+
 <p><span style="font-size:18px"><strong>Send a Purchase request:</strong></span></p>
 
 <p><span style="font-size:14px">[Will Documented&nbsp;Soon]</span></p>
