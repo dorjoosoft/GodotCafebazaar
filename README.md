@@ -39,7 +39,7 @@ Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/c
 	Cafebazaar.Plugin.purchase(productId, requestCode, payload); 
 	#productId -&gt; This is the product id that you have defined inside of the developers panel.
 	#requestCode -&gt; This is just a random integer but, it's a good practice to make this a constant property.
-	#payload -&gt; This can be an empty string or anything else that you wish, but it's a good practice to actually pass in some data to</code></pre>
+	#payload -&gt; This can be an empty string or anything else that you wish, but it's a good practice to actually pass in some data to help you to verify the purchase.</code></pre>
 
 <p>&nbsp;</p>
 
