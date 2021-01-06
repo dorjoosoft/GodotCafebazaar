@@ -27,7 +27,22 @@ Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/c
 
 <p><span style="font-size:18px"><strong>Send a Purchase request:</strong></span></p>
 
-<p><span style="font-size:14px">[Will Documented&nbsp;Soon]</span></p>
+
+<p>Read comments for more information!</p>
+
+<pre>
+<code class="language-python">func sendPurchaseRequest(p1 , p2, p3):
+	# Send a purchase request
+	var productId = p1    #for example: "powerUp1" 
+	var requestCode = p2  #for example: 1234
+	var payload = p3		  #for example: "kl97AS#@fasdfg"
+	Cafebazaar.Plugin.purchase(productId, requestCode, payload); 
+	#productId -&gt; This is the product id that you have defined inside of the developers panel.
+	#requestCode -&gt; This is just a random integer but, it's a good practice to make this a constant property.
+	#payload -&gt; This can be an empty string or anything else that you wish, but it's a good practice to actually pass in some data to</code></pre>
+
+<p>&nbsp;</p>
+
 
 <p><span style="font-size:18px"><strong>Handle Purchase result:</strong></span></p>
 
