@@ -38,8 +38,6 @@ Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/c
 	# Handle purchase result [currently handle success result] 
 	Cafebazaar.Plugin.connect("purchase_succeed", self, "purchase_succeed")</code></pre>
 
-<p>&nbsp;</p>
-
 <pre>
 <code class="language-python">func purchase_succeed(resultCode):
 	var pResult = JSON.parse(resultCode)
