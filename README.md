@@ -31,6 +31,20 @@ Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/c
 
 <p><span style="font-size:18px"><strong>Handle Purchase result:</strong></span></p>
 
-<p><span style="font-size:14px">[Will documented&nbsp;Soon]</span></p>
+<p>Add this codes to handle purchase result&nbsp;</p>
 
+<pre>
+<code class="language-python">func _ready():
+	# Handle purchase result [currently handle success result] 
+	Cafebazaar.Plugin.connect("purchase_succeed", self, "purchase_succeed")</code></pre>
+
+<p>&nbsp;</p>
+
+<pre>
+<code class="language-python">func purchase_succeed(resultCode):
+	var pResult = JSON.parse(resultCode)
+	# result["productId"] contains your product id registered in CafeBazaar panel.
+	print(pResult.result["productId"])</code></pre>
+
+<p>&nbsp;</p>
 <p>&nbsp;</p>
