@@ -61,3 +61,5 @@ Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/c
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<h2><strong>Consume purchase:</strong></h2>
+<p><strong>Note:</strong> on purchase success event the consume method is called automatically in plugin purchase flow by now and you can send user to buy that item again. I'll make this method separated on next plugin update.</p>
