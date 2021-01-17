@@ -58,8 +58,6 @@ Download&nbsp;<a href="https://github.com/dorjoosoft/GodotCafebazaar/blob/main/c
 	var pResult = JSON.parse(resultCode)
 	# result["productId"] contains your product id registered in CafeBazaar panel.
 	print(pResult.result["productId"])</code></pre>
-
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <h2><strong>Consume purchase:</strong></h2>
 <p><strong>Note:</strong> on purchase success event the consume method is called automatically in plugin purchase flow by now and you can send user to buy that item again. I'll make this method separated on next plugin update.</p>
