@@ -1,5 +1,6 @@
 <p><strong><span style="font-size:18px">GodotCafebazaar</span>:</strong></p>
 <p> Godot CafeBazaar plugin implemented based on <span style="font-size:16px"><strong>Godot 3.2.2+</strong></span> android plugin standards.<br />
+<p> New release upgrades to work on <span style="font-size:16px"><strong>Godot 3.5.1+</strong></span> projects as well.<br />
 This plugin uses Cafebazaar <a href="https://github.com/cafebazaar/Poolakey">Poolakey sdk</a>.</p>
 
 <p><strong><span style="font-size:18px">prerequisite</span>:</strong></p>
